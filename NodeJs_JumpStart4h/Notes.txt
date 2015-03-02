@@ -1,0 +1,29 @@
+Notes:
+
+Node.js -> Simple way to build web applications using JavaScript
+
+All open source. Great to write JavaScript code everywhere. 
+Great for straming and real-time web apps.
+
+Node structure is single threaded. So when we need to run very long calculations on the server-side the next events will be blocked until the first is finished.
+
+npm -> Node package Manager. Center repository for Node.js 
+
+Event Driven Programming -> The flow of the program is defined by the events that are used. Clicks or other events.
+
+Node provides an event loop as part of the language. The language is always checking fo new events. Its single threaded so when we pause an event, everything else pauses. We can change this by running events asynchronously, which reduces th waiting time.
+
+Callback style Programming -> Something is runned when an event is catched.
+
+Promises -> A function that will return something in the future. Simplify async systems.
+
+Express -> web app framework to structure your web site, and allow you to acess multiple requests from multiple urls. Its a module that is used for node on the server to deal with http calls. Works on the back-end and does not do anything on the front-end. Supports routing to deal with multiple urls and multiple templates.
+ROuter -> A router maps an http request to a callback. HTTP requests can be sent as get/post/put/delete, etc.
+
+On the folder of the App, if we type npm install <module> --save , it will install the module and add the dependency to the package.json file.
+
+Midleware -> Idea of uing other request handlers right before your request handlers. So it gets a request  and it processes all the middleware before it gets the actual request and process it. Intercepts a request and does something.
+To see the code, go to 07_BasicExpress.
+
+###################################################################################################################################
+

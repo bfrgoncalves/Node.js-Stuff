@@ -1,0 +1,20 @@
+Packages Node.js:
+
+- express.js -> module to create a web app quickly with all the files and folders needed to run it.
+
+- nodemon -> Refresh and track changes between files and the webserver, so there is no need to close and open the app everytime there is a change. npm install -g nodemon
+
+to listen file changes using nodemon, write nodemon <webServerLocation> : bin/www
+
+- hogan.js -> Template para web apps.  
+- -c less -> is a dynamic stylesheet language that can be compiled into Cascading Style Sheets (CSS). Written in JavaScript.
+
+in each app, use express and install all the dependencies.
+
+express <NameApp> 
+express -h -> see all the parameters
+
+All the requests are tracked using routes, and by default that route is the index.js.
+We can listen to get and post requests using Router() and then use router.get or router.post
+
+Pass data to hogan files with the tags {{ nameToPass }} and then assign the variable name in the router.
